@@ -1,8 +1,6 @@
 
 ## MongoDB Project
 Djongo-Project is a Django project using the Djongo MongoDB.
-## Project features
-- The platform provides an endpoint to manage user registration and access.
 
 ## Installation
 
@@ -45,19 +43,22 @@ python manage.py runserver
 ```
 
 - Access the application from the browser at http://localhost:8000/
-![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/1a748557-6d48-4f2f-a0ee-f4685409d651)
+
+## Project features
+- The platform provides an endpoint to manage user registration and access.
+![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/342f4529-9e49-474a-81f1-599d6d421a6b)
 
 - It automatically assigns each registered user between 1 and 10 bitcoins.
-![code](https://github.com/Priotts/MongoDB-Project/assets/94853311/44886664-e2af-44f7-990d-a7a8476abeba)
+![code](https://github.com/Priotts/MongoDB-Project/assets/94853311/29f5193d-27e3-4b6c-a29f-2cd828afbcbf)
 
 - Each user can post one or more orders to sell or buy a certain amount of bitcoin at a certain price.
-![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/c4c5108a-1e98-48f6-87f3-052071e6f941)
+![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/f5ec779c-3bb2-4c5e-afca-264b815d5397)
 
 - At the time of publication, if the order's buy price is equal to or higher than any other user's sell price, it registers the transaction and marks both orders as executed.
-![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/498d15a3-2452-4f64-90d3-6df94f6ea1a1)
+![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/429ea54b-1f98-46d3-874f-906f3199a73b)
 
 - Provide an endpoint to obtain all active buy and sell orders.
-![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/6055fb8b-6ed0-4f86-8dc7-dc57727ca258)
+![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/ec32aae3-75ee-4b82-8a4a-470d378895e3)
 
 - Also provide an endpoint to calculate the total profit or loss from each user's transactions.
-- you can check your profit/loss in the profile section  ![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/4fd6eab4-79ff-40c1-b7f1-e9dab31db1e4)
+- you can check your profit/loss in the profile section  ![image](https://github.com/Priotts/MongoDB-Project/assets/94853311/0ad2e185-b268-4f0f-b0a2-21c716e5bd31)
