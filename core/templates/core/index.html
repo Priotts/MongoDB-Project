@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start text-center">
+        <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Sign up for a BTC bonus.</h1>
+        <a href="{% url 'sign_up' %}" class="flex-shrink-0 text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg mt-10 sm:mt-0">Sign Up</a>
+      </div>
+    </div>
+  </section>
+{% endblock %}
